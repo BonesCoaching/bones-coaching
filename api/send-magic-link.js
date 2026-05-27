@@ -15,7 +15,7 @@ module.exports = async (req, res) => {
         'Content-Type': 'application/json'
       },
       body: JSON.stringify({
-        from: 'Bones Coaching <contact@bones-coaching.fr>',
+        from: 'Bones Coaching <onboarding@resend.dev>',
         to: [email],
         subject: '🔐 Ton lien de connexion — Bones Coaching',
         html: `
